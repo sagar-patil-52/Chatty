@@ -29,7 +29,10 @@ struct Constants {
     
     struct Strings {
         static let container = "Chatty"
-
+    }
+    
+    struct CoreDataStrings {
+        static let msgEntity = "StoredMessage"
     }
     
     struct HEXColorString {

@@ -30,6 +30,8 @@
 		C12E4151271CAD6500A47E32 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12E4150271CAD6500A47E32 /* Coordinator.swift */; };
 		C12E4158271CAE2000A47E32 /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12E4156271CAE2000A47E32 /* PersistenceService.swift */; };
 		C12E4159271CAE2000A47E32 /* LocalStorageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12E4157271CAE2000A47E32 /* LocalStorageHandler.swift */; };
+		C14A6807271D77DC00D1BC8B /* StoredMessage+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14A6805271D77DC00D1BC8B /* StoredMessage+CoreDataClass.swift */; };
+		C14A6808271D77DC00D1BC8B /* StoredMessage+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14A6806271D77DC00D1BC8B /* StoredMessage+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,8 @@
 		C12E4150271CAD6500A47E32 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		C12E4156271CAE2000A47E32 /* PersistenceService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
 		C12E4157271CAE2000A47E32 /* LocalStorageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalStorageHandler.swift; sourceTree = "<group>"; };
+		C14A6805271D77DC00D1BC8B /* StoredMessage+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StoredMessage+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C14A6806271D77DC00D1BC8B /* StoredMessage+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StoredMessage+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +147,6 @@
 				C12E40B2271BE99400A47E32 /* Assets.xcassets */,
 				C12E40B4271BE99500A47E32 /* LaunchScreen.storyboard */,
 				C12E40B7271BE99500A47E32 /* Info.plist */,
-				C12E40AF271BE99200A47E32 /* Chatty.xcdatamodeld */,
 			);
 			path = Chatty;
 			sourceTree = "<group>";
@@ -247,6 +250,9 @@
 		C12E4155271CAE0900A47E32 /* LocalStorage */ = {
 			isa = PBXGroup;
 			children = (
+				C12E40AF271BE99200A47E32 /* Chatty.xcdatamodeld */,
+				C14A6805271D77DC00D1BC8B /* StoredMessage+CoreDataClass.swift */,
+				C14A6806271D77DC00D1BC8B /* StoredMessage+CoreDataProperties.swift */,
 				C12E4157271CAE2000A47E32 /* LocalStorageHandler.swift */,
 				C12E4156271CAE2000A47E32 /* PersistenceService.swift */,
 			);
@@ -390,6 +396,7 @@
 				C12E4159271CAE2000A47E32 /* LocalStorageHandler.swift in Sources */,
 				C12E412C271C64AE00A47E32 /* Constants.swift in Sources */,
 				C12E410D271BF68200A47E32 /* RightTableCell.swift in Sources */,
+				C14A6807271D77DC00D1BC8B /* StoredMessage+CoreDataClass.swift in Sources */,
 				C12E40B1271BE99200A47E32 /* Chatty.xcdatamodeld in Sources */,
 				C12E4112271BF68F00A47E32 /* LeftTableCell.swift in Sources */,
 				C12E4151271CAD6500A47E32 /* Coordinator.swift in Sources */,
@@ -400,6 +407,7 @@
 				C12E40F0271BEE4E00A47E32 /* ChatViewModel.swift in Sources */,
 				C12E40A9271BE99200A47E32 /* SceneDelegate.swift in Sources */,
 				C12E412D271C64AE00A47E32 /* Utils.swift in Sources */,
+				C14A6808271D77DC00D1BC8B /* StoredMessage+CoreDataProperties.swift in Sources */,
 				C12E413C271C990400A47E32 /* NetworkHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

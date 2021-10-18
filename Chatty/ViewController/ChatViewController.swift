@@ -26,6 +26,8 @@ class ChatViewController: UIViewController {
     func setup() {
         
         viewModel.chatDelegate = self
+        viewModel.fetchAllMessages()
+        
         tableView.rowHeight = UITableView.automaticDimension
         tableView.backgroundColor = UIColor(hexString: Constants.HEXColorString.chatViewBgColor)
         tableView.tableFooterView = UIView()
